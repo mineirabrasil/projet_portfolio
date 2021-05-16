@@ -1,0 +1,32 @@
+body>header section {
+    background-color: #ffa500;
+    padding: 20px;
+    border: 2px solid black;
+}
+body>header>section img {
+    border: 1px solid black;
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+body>header>section nav {
+    border-radius: 50%;
+    background: lightblue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: calc( 39% - 100px ); 
+}
+body>header nav {
+    background: darkgray;
+    border: 2px solid black;
+    border-top: none;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: inline-block;
+    vertical-align: middle;*/
+
+}
